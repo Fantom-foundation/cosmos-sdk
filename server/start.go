@@ -8,11 +8,12 @@ import (
 
 	"github.com/tendermint/tendermint/abci/server"
 
+	"github.com/Fantom-foundation/go-txflow/node"
+	pvm "github.com/Fantom-foundation/go-txflow/privval"
 	tcmd "github.com/tendermint/tendermint/cmd/tendermint/commands"
 	cmn "github.com/tendermint/tendermint/libs/common"
-	"github.com/tendermint/tendermint/node"
+	tnode "github.com/tendermint/tendermint/node"
 	"github.com/tendermint/tendermint/p2p"
-	pvm "github.com/tendermint/tendermint/privval"
 	"github.com/tendermint/tendermint/proxy"
 )
 
@@ -128,9 +129,9 @@ func startInProcess(ctx *Context, appCreator AppCreator) (*node.Node, error) {
 		pvm.LoadOrGenFilePV(cfg.PrivValidatorKeyFile(), cfg.PrivValidatorStateFile()),
 		nodeKey,
 		proxy.NewLocalClientCreator(app),
-		node.DefaultGenesisDocProviderFunc(cfg),
-		node.DefaultDBProvider,
-		node.DefaultMetricsProvider(cfg.Instrumentation),
+		tnode.DefaultGenesisDocProviderFunc(cfg),
+		tnode.DefaultDBProvider,
+		tnode.DefaultMetricsProvider(cfg.Instrumentation),
 		ctx.Logger.With("module", "node"),
 	)
 	if err != nil {
