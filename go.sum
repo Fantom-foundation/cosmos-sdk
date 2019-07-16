@@ -5,6 +5,8 @@ github.com/BurntSushi/toml v0.3.1 h1:WXkYYl6Yr3qBf1K79EBnL4mak0OimBfB0XUf9Vl28OQ
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/Fantom-foundation/go-txflow v0.0.0-20190715083002-da0b1a643c86 h1:W6grgMHHAt6Z2B8OkqRyqgw8f5ujNaKf5krMKZF/iZk=
 github.com/Fantom-foundation/go-txflow v0.0.0-20190715083002-da0b1a643c86/go.mod h1:RWzsp4oqyLwS2TNpV0v9tIuPOc5ygh2Xz61Lon84STs=
+github.com/Fantom-foundation/go-txflow v0.0.0-20190716012202-d3d5fdeddfac h1:o2J0AWlZKjqLxoTMT5OZXRT4b9Bzp4RHcUpG71AXWwg=
+github.com/Fantom-foundation/go-txflow v0.0.0-20190716012202-d3d5fdeddfac/go.mod h1:qulwYsk9tUtBr/9Vvz47HYqFh0oN79mk2ehdZs9apU8=
 github.com/VividCortex/gohistogram v1.0.0 h1:6+hBz+qvs0JOrrNhhmR7lFxo5sINxBCGXrdtl/UvroE=
 github.com/VividCortex/gohistogram v1.0.0/go.mod h1:Pf5mBqqDxYaXu3hDrrU+w6nw50o/4+TcAqDqk/vUH7g=
 github.com/aead/siphash v1.0.1/go.mod h1:Nywa3cDsYNNK3gaciGTWPwHt0wlpNV15vwmswBAUSII=

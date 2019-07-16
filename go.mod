@@ -1,7 +1,7 @@
 module github.com/cosmos/cosmos-sdk
 
 require (
-	github.com/Fantom-foundation/go-txflow v0.0.0-20190715083002-da0b1a643c86
+	github.com/Fantom-foundation/go-txflow v0.0.0-20190716012202-d3d5fdeddfac
 	github.com/bartekn/go-bip39 v0.0.0-20171116152956-a05967ea095d
 	github.com/bgentry/speakeasy v0.1.0
 	github.com/btcsuite/btcd v0.0.0-20190605094302-a0d1e3e36d50
